@@ -68,6 +68,47 @@ body {
     line-height: 1.22;
     text-decoration: none;
     color: var(--description-color);
-    /* border: 1px solid var(--accent-color);
-    border-radius: 50px; */
+    border: 1px solid var(--accent-color);
+    border-radius: 50px;
+}
+
+/* SECTION ABOUT */
+
+.about-title {
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+  color: var(--big-title-color);
+}
+.about-text {
+font-size: 16px;
+line-height: 1.56;
+text-align: center;
+color: var(--description-color);
+}
+
+.services {
+  list-style: none;
+}
+
+.service-item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--title-color);
+}
+
+.service-text {
+  font-size: 14px;
+  line-height: 1.57;
+  color: var(--description-color);
+}
+
+.service-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  text-decoration: none;
 }
