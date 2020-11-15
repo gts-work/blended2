@@ -1,35 +1,35 @@
 :root {
-    /* основной цвет текста */
-    --primary-color: #ffffff;
-    --big-title-color: #323232;
-    --title-color: #000000;
-    --description-color: #999999;
-    --accent-color: #4985FF;
-
+  /* основной цвет текста */
+  --primary-color: #999999;
+  --white-color: #ffffff;
+  --dark-color: #323232;
+  --black-color: #000000;
+  --accent-color: #4985ff;
+  --light-grey-color: #e0e0e0;
 }
 
 body {
-    font-family: 'Montserrat', serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* HEADER SECTION */
 
 .header {
-    /* черный цвет пока фото с background не подтянули */
-    background-color: var(--title-color);
-    border-bottom: 1px solid #A1A1A1;
+  /* черный цвет пока фото с background не подтянули */
+  /* background-color: var(--title-color); */
+  /* border-bottom: 1px solid #a1a1a1; */
 }
 
 .menu {
-    list-style: none;
+  list-style: none;
 }
 
 .menu a {
-    font-weight: 500;
-    font-style: 16px;
-    line-height: 1.25;
-    text-decoration: none;
-    color: var(--primary-color);
+  font-weight: 500;
+  font-style: 16px;
+  line-height: 1.25;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 /* .menu a:focus {
@@ -39,37 +39,37 @@ body {
 /* HERO SECTION */
 
 .hero {
-    /* background-image: url(https://gts-work.github.io/blended2/images/hero.jpg); */
-    background: url(/blended2/images/hero.jpg) no-repeat center;
-    background-size: cover;
+  /* background-image: url(https://gts-work.github.io/blended2/images/hero.jpg); */
+  background: url(/blended2/images/hero.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .tagline {
-    font-weight: 500;
-    font-style: 16px;
-    line-height: 1.22;
-    text-align: center;
-    color: var(--description-color);
+  font-weight: 500;
+  font-style: 16px;
+  line-height: 1.22;
+  text-align: center;
+  color: var(--description-color);
 }
 
 .hero-title {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 1.34;
-    text-align: center;
-    color: var(--description-color);
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.34;
+  text-align: center;
+  color: var(--description-color);
 }
 /* с кнопкой пошло что-то не так */
 
 .our-projects {
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.22;
-    text-decoration: none;
-    color: var(--description-color);
-    border: 1px solid var(--accent-color);
-    border-radius: 50px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.22;
+  text-decoration: none;
+  color: var(--description-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 50px;
 }
 
 /* SECTION ABOUT */
@@ -81,10 +81,10 @@ body {
   color: var(--big-title-color);
 }
 .about-text {
-font-size: 16px;
-line-height: 1.56;
-text-align: center;
-color: var(--description-color);
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--description-color);
 }
 
 .services {
@@ -111,4 +111,63 @@ color: var(--description-color);
   color: var(--primary-color);
   background-color: var(--accent-color);
   text-decoration: none;
+}
+
+/* Video */
+.video > .title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.47;
+
+  color: var(--white-color);
+
+  outline: 1px solid tomato;
+  background-color: tomato;
+}
+
+.video > .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+
+  color: var(--white-color);
+
+  outline: 1px solid tomato;
+  background-color: tomato;
+}
+
+.video-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.56;
+
+  color: var(--white-color);
+
+  outline: 1px solid tomato;
+  background-color: tomato;
+}
+
+/*  Feedback form */
+.feedback > .subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--black-color);
+}
+
+.feedback > .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+
+  color: var(--primary-color);
+}
+
+.attention {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.62;
+
+  color: var(--primary-color);
 }
