@@ -11,7 +11,9 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-
+ul {
+  list-style-type: none;
+}
 /* HEADER SECTION */
 
 .header {
@@ -170,4 +172,37 @@ body {
   line-height: 1.62;
 
   color: var(--primary-color);
+}
+
+/*-- Стандарты --*/
+.standart {
+  background-color: #f6f6f8;
+}
+.standart-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.47;
+  color: #323232;
+}
+.standart-description {
+  font-size: 16px;
+  line-height: 1.56;
+  color: #999999;
+}
+.details {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration-line: underline;
+  color: #4985ff;
+}
+.numeral-125 {
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+}
+.Our-projects {
+  font-size: 16px;
+  line-height: 1.56;
+  color: #999999;
 }
