@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 ul {
@@ -230,4 +231,64 @@ ul {
   line-height: 1.56;
   text-align: center;
   color: var(--primary-color);
+}
+
+/*Наши работы, на которых мы специализируемся-Аникеева*/
+.works {
+  background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
+}
+
+.works-title {
+  color: var(--white-color);
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.47;
+}
+
+.button-services {
+  background: var(--accent-color);
+  color: var(--white-color);
+
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.button-services:hover,
+.button-services:focus {
+  background: var(--white-color);
+  color: var(--accent-color);
+}
+
+.works-examples {
+  color: var(--black-color);
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.works-numeration {
+  color: var(--accent-color);
+}
+
+.examples-description {
+  color: var(--primary-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+.works-more {
+  color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.works-more:hover,
+.works-more:focus {
+  color: var(--black-color);
 }
